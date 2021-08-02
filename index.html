@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>COURSE SHOP APP</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+</head>
+<body>
+     <section class="header">
+         <nav>
+             <a href="index.html"><img src="pics/logo.gif" style="height :100px;"></a>
+             <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                 <ul>
+                     
+                     <li><a href="login.html">LOGIN</a></li>
+                     <li><a href="signup.html">SIGNUP</a></li>
+                     <li><a href="history.html">HISTORY</a></li>
+                     <li><a href="user profile.html">USER PROFILE</a></li>
+                     <li><a href="logout.html">LOGOUT</a></li>
+                    
+                 </ul>
+             </div>
+             <i class="fa fa-bars" onclick="showMenu()"></i>
+         </nav>
+
+         <div class="text-box">
+             <h1>COURSE SHOP APP</h1>
+             <P>Get unlimited access to 6,000+ of Course Shop App’s top courses for your team. Learn and improve skills across business, tech, design, and more.
+
+            </P>
+            <a href="" class="hero-btn">Visit Us To Know More</a>
+
+         </div>
+
+     </section>
+
+     <!--------course-------->
+
+         <section class="course">
+             <h1>Courses We Offer</h1>
+             <p>HTML, CSS, JavaScript, Python, C, C++</p>
+
+             <div class="row">
+                <div class="course-col">
+                    <h3>HTML</h3>
+                    <p>The HyperText Markup Language, or HTML is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript.
+
+                    </p>
+                    <a href="buy.html"class="hero-btn1">PURCHASE</a>
+                    <a href="cd.html"class="hero-btn1">COURSE DETAIL</a>
+                </div>
+                
+                <div class="course-col">
+                    <h3>CSS</h3>
+                    <p>Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML.CSS is a cornerstone technology of the World Wide Web.</p>
+                    <a href="buy.html"class="hero-btn1">PURCHASE</a>
+                    <a href="cd.html" class="hero-btn1">COURSE DETAIL</a>
+                </div>
+                <div class="course-col">
+                    <h3>JavaScript</h3>
+                    <p>JavaScript often abbreviated as JS, is a programming language that conforms to the ECMAScript specification.JavaScript is high-level, often just-in-time compiled, and multi-paradigm.</p>
+                    <a href="buy.html"class="hero-btn1">PURCHASE</a>
+                    <a href="cd.html"class="hero-btn1">COURSE DETAIL</a>
+                </div>    
+                </div>
+                </section>
+                <section class="course">
+                <div class="row1">
+                <div class="course-col1">
+                    <h2>Python</h2>
+                    <p>Python is an interpreted high-level general-purpose programming language. Python's design philosophy emphasizes code readability with its notable use of significant indentation.</p>
+                    <a href="buy.html"class="hero-btn1">PURCHASE</a>
+                    <a href="cd.html"class="hero-btn1">COURSE DETAIL</a>
+                </div>
+                
+                <div class="course-col1">
+                    <h2>C</h2>
+                    <p>C is a general-purpose, procedural computer programming language supporting structured programming, lexical variable scope, and recursion, with a static type system.</p>
+                    <a href="buy.html"class="hero-btn1">PURCHASE</a>
+                    <a href="cd.html"class="hero-btn1">COURSE DETAIL</a>
+                </div>
+                <div class="course-col1">
+                    <h2>C++</h2>
+                    <p>C++ is a general-purpose programming language created by Bjarne Stroustrup as an extension of the C programming language, or "C with Classes".</p>
+                    <a href="buy.html"class="hero-btn1">PURCHASE</a>
+                    <a href="cd.html"class="hero-btn1">COURSE DETAIL</a>
+                </div>  
+                </div>
+                
+              
+            </section>
+         
+
+        
+
+
+
+
+
+
+    <!--------JavaScript for Toggle Menu---------->
+     <script>
+
+         var navLinks = document.getElementById("navLinks");
+
+         function showMenu(){
+             navLinks.style.right = "0";
+         }
+         function hideMenu(){
+             navLinks.style.right = "-200px";
+         }
+
+     </script>
+
+</body>
+</html>
